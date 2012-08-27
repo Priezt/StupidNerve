@@ -13,7 +13,8 @@ class Brain:
         pass
 
 class Neuron:
-    pass
+    def __init__(self):
+        self.neighbours = dict()
 
 if __name__ == '__main__':
     bn = Brain()
